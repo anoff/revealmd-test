@@ -1,0 +1,16 @@
+{
+  "name": "revealmd-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "reveal-md presentation.md -w",
+    "start:working": "reveal-md presentation-working.md -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reveal-md": "git+https://github.com/webpro/reveal-md.git#8c2f2584be09411f1559c9014a5f49877f904f28"
+  }
+}
